@@ -31,9 +31,17 @@
                     <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a
             >
           </li>
-          {% if user.is_authenticated %}
+
           <li class="nav-item mr-5 ml-4">
-            <a class="nav-link" href="#">Logout</a>
+            <a class="nav-link" href="">Locations</a>
+                </li>
+
+                <li class="nav-item mr-5 ml-4">
+                    <a class="nav-link" href="#">Bookings</a>
+                </li>
+                {% if user.is_authenticated %}
+                <li class="nav-item mr-5 ml-4">
+                    <a class="nav-link" href="#">Logout</a>
                 </li>
 
                 <li class="nav-item mr-5 ml-4">
@@ -45,13 +53,6 @@
                     <a class="nav-link" href="#">Login</a>
                 </li>
                 {% endif %}
-                <li class="nav-item mr-5 ml-4">
-                    <a class="nav-link" href="#">Locations</a>
-                </li>
-
-                <li class="nav-item mr-5 ml-4">
-                    <a class="nav-link" href="#">Bookings</a>
-                </li>
                 <li class="nav-item mr-5 ml-4">
                     <a class="nav-link" href="#"> Contact </a>
                 </li>
@@ -83,7 +84,20 @@
         </div>
     </section>
     <section class="section2">
-        <div class="breaker"></div>
+        <div class="breaker">
+            <h1>We keep our world enticing for you adventure</h1>
+            <h4>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi, incidunt!
+            </h4>
+        </div>
+    </section>
+
+    <section class="section3">
+        <div class="container">
+            <div class="flexs1"></div>
+            <div class="flexs2"></div>
+            <div class="flexs3"></div>
+        </div>
     </section>
     <script src="" async defer></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
